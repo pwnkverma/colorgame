@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(25, 25, 25);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#container{
+    max-width: 600px;   
+    margin: 0 auto;
+}
+.colorBox{
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+}
+#stripe{
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 1px;
+    margin-bottom: 15px;
+
+}
+#msg{
+    display: inline-block;
+    width: 20%;
+}
+#qsColor{
+    font-size: 200%;
+}
+.wrong{
+    background-color: transparent;
+    opacity: 0.8;
+    background: url('crossmark.png') no-repeat center;
+}
+.right{
+    background-color: transparent;
+    background: url('green.png') no-repeat center;
+}
+h1{
+    color: seashell;
+    background-color: steelblue;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.selected{
+    background: steelblue;
+    color: white;
+}
+button{
+    background: none;
+    border:1px solid steelblue;
+    text-transform: uppercase;
+    font-family: inherit;
+    margin: 0;
+    background-color: inherit;
+    font-weight: bold;
+    font-size: 15px;
+    color: steelblue;
+    letter-spacing: 1.1px;
+    height: 100%;
+    transition: all .2s;
+}
+button:hover{
+    background: steelblue;
+    color: white;
+}
